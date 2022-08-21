@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    background: linear-gradient(90deg,aqua,rgb(90, 248, 125));
+}
+.text-content{
+    text-align: center;
+    padding: 100px 0px 0px 0px;
+    margin: 30px;
+}
+.container{
+    width: 50%;
+    height: 150vh;
+    margin-left: 330px;
+    background:rgb(20, 153, 153);
+    color: white;
+    opacity: .9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    
+}
+.build-form{
+    width:80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+    padding: 10px;
+}
+#name{
+    border: none;
+    height: 33px;
+    outline: none;
+    border-radius: 5px;
+}
+#name:focus{
+    transform: scale(1.05);
+    background: linear-gradient(90deg,aqua,rgb(90, 248, 125));
+}
+#email{
+    border: none;
+    height: 33px;
+    outline: none;
+    border-radius: 5px;
+}
+#email:focus{
+    transform: scale(1.05);
+    background: linear-gradient(90deg,aqua,rgb(90, 248, 125));
+}
+#number{
+    border: none;
+    height: 33px;
+    outline: none;
+    border-radius: 5px;
+}
+#number:focus{
+    transform: scale(1.05);
+    background: linear-gradient(90deg,aqua,rgb(90, 248, 125));
+}
+
+#dropdown{
+    border: none;
+    height: 33px;
+    outline: none;
+    border-radius: 5px;
+}
+#dropdown:focus{
+    transform: scale(1.05);
+    background: rgb(238, 235, 235);
+}
+#perfer{
+    border: none;
+    height: 33px;
+    outline: none;
+    border-radius: 5px;
+}
+#perfer:focus{
+    transform: scale(1.05);
+    background: rgb(238, 235, 235);
+}
+#comment{
+    border: none;
+    outline: none;
+    border-radius: 5px;
+}
+#comment:focus{
+    transform: scale(1.05);
+    background: whitesmoke;
+}
+button{
+    background: rgb(28, 201, 28);
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+button:hover{
+    background: rgb(0, 236, 0);
+    color: black;
+}
+
+
+
+

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Survey Form</title>
+ </head>
+ <body>
+     <div class="text-content">
+     <h1 id="title" class="text">freeCodeCamp Survey Form</h1>
+     <p id="descreption" class="text">Thank you for taking the time to help us improve the platform</p>
+     </div>
+     <div class="container">
+     <form id="survey-form" action="">
+         <div id="main-send" class="build-form">
+
+         <label for="Name" id="name-label">Name</label>
+         <input id="name" type="text" placeholder="Name">
+         
+         <label for="email" id="email-label">Email</label>
+         <input type="email" placeholder="Email" id="email" required>
+         
+         <label for="age" id="age-label">Age</label>
+         <input type="number" placeholder="Age" min="10" max="99" id="number" required>
+         
+        </div>
+         <div id="selection" class="build-form">
+         <p class="selection-pat">Which option best describes your current role?</p>
+         <select name="role" id="dropdown" required>
+             <option value="disabled selected value">Select current role</option>
+             <option value="student">student</option>
+             <option value="job">fulltime</option>
+             <option value="learner">fulltime learner</option>
+             <option value="perferno">perfer not to say</option>
+             <option value="other">other</option>
+         </select>
+        </div>
+        <div id="radio" class="build-form">
+            <p class="radio-par">Would you recommend freeCodeCamp to a friend?</p>
+            <label for="definetely" class="radio-label">
+                Definetely
+                <input type="radio" name="Definetely" value="Definetely">
+            </label>
+            <label for="maybe" class="radio-label">
+                Maybe
+                <input type="radio" name="maybe" value="maybe">
+            </label>
+            <label for="not sure" class="radio-label">
+                not sure
+                <input type="radio" name="not sure" value="not sure">
+            </label>
+        </div>
+        <div id="select-favorite" class="build-form">
+            <p class="check-par">What is your favorite feature of freeCodeCamp?</p>
+            <select name="perfer" id="perfer">
+                <option value="disabled selected value">Select an option</option>
+                <option value="challenge">Challenges</option>
+                <option value="project">Projects</option>
+                <option value="community">Community</option>
+                <option value="open source">Open source</option>
+            </select>
+        </div>
+        <div id="check-box" class="build-form">
+            <p class="checkbox-par">What would you like to see improved? (Check all that apply)</p>
+            <label for="city-meetups">
+                City Meetups
+                <input type="checkbox" name="perfer" value="city-meetups">
+            </label>
+            <label for="city-meetups">
+                City Meetups
+                <input type="checkbox" name="perfer" value="city-meetups">
+            </label>
+            <label for="city-meetups">
+                City Meetups
+                <input type="checkbox" name="perfer" value="city-meetups">
+            </label>
+            <label for="city-meetups">
+                City Meetups
+                <input type="checkbox" name="perfer" value="city-meetups">
+            </label>
+            <label for="city-meetups">
+                City Meetups
+                <input type="checkbox" name="perfer" value="city-meetups">
+            </label>
+            <label for="city-meetups">
+                City Meetups
+                <input type="checkbox" name="perfer" value="city-meetups">
+            </label>
+            <label for="city-meetups">
+                City Meetups
+                <input type="checkbox" name="perfer" value="city-meetups">
+            </label>
+            <label for="city-meetups">
+                City Meetups
+                <input type="checkbox" name="perfer" value="city-meetups">
+            </label>
+            <label for="city-meetups">
+                City Meetups
+                <input type="checkbox" name="perfer" value="city-meetups">
+            </label>
+            <label for="city-meetups">
+                City Meetups
+                <input type="checkbox" name="perfer" value="city-meetups">
+            </label>
+        </div>
+        <div id="texterea" class="build-form">
+            <p class="texterea-par">Any comments or suggestions?</p>
+            <textarea name="comment" id="comment" cols="30" rows="5" placeholder="Entry your comment"></textarea>
+        </div>
+        <div id="btn" class="build-form">
+            <button type="submit" id="submit">submit</button>
+        </div>
+     </form>
+    </div>
+    
+ </body>
+</html>
